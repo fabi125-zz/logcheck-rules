@@ -1,0 +1,4 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]:? peer [.:[:xdigit:]]+ now (in)?valid$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]:? adjusting clock frequency by -?[.[:digit:]]+ to -?[.[:digit:]]+ppm$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]:? reply from [.:[:xdigit:]]+: negative delay -?[.[:digit:]]+s, next query [[:digit:]]+s$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ ntpd\[[[:digit:]]+\]:? reply from [.:[:xdigit:]]+: not synced, next query [[:digit:]]+s$

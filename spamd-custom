@@ -1,0 +1,2 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]: prefork: adjust: .*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ spamd\[[[:digit:]]+\]: pyzor: \[[[:digit:]]+\] error: TERMINATED, signal 15 \(000f\)$

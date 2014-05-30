@@ -8,7 +8,7 @@ This is designed as an overlay to /etc/logcheck/ignore.d.server on Debian.
 To add the overlay (might overwrite existing files!):
 
 ```
-git clone -n https://github.com/fabi125/logcheck-rules /tmp/logcheck
+git clone -n https://github.com/fabi125/logcheck-rules.git /tmp/logcheck
 mv /tmp/logcheck/.git/ /etc/logcheck/ignore.d.server/
 cd /etc/logcheck/ignore.d.server/
 git reset HEAD
