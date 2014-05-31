@@ -1,1 +1,2 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: [0-9]+ (maximum )?active connections.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: Maximum connection limit reached for [:.[:xdigit:]]+$
