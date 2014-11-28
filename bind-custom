@@ -1,1 +1,2 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ named\[[[:digit:]]+\]: client [.:[:xdigit:]]+#[[:digit:]]+: zone transfer '[._[:alnum:]-]+/AXFR/IN' denied$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ named\[[[:digit:]]+\]: client [.:[:xdigit:]]+#[[:digit:]]+: transfer of '[._[:alnum:]-]+/IN': IXFR ended$
